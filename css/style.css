@@ -1,0 +1,61 @@
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v5-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v5-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  /* Colors */
+  --yellow: #f4d04e;
+  --dark-grey: #111111;
+  --medium-grey: #6b6b6b;
+  --white: #fff;
+
+  /* Font Weights */
+  --medium: 500;
+  --bold: 800;
+}
+
+.text-preset-1 {
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: var(--bold);
+}
+.text-preset-2 {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: var(--medium);
+}
+.text-preset-3 {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: var(--medium);
+}
+.text-preset-3-bold {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: var(--bold);
+}
+
+body {
+  background-color: var(--yellow);
+  display: grid;
+  place-content: center;
+  padding-inline: 2.4rem;
+}
